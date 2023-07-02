@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <link rel = "icon" href="Resources/profile.jpg" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/998b8b029a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="personal_portfolio.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li> <a class="hover" href="#">HOME</a></li>
+                    <li> <a class="hover" href="#education">EDUCATION</a></li>
+                    <li> <a class="hover" href="#skills">SKILLS</a></li>
+                    <li> <a class="hover" href="#projects">PROJECTS</a></li>
+                    <li> <a class="hover" href="#hobbies">HOBBIES</a></li>
+                    <li> <a class="hover" href="#contact">CONTACT ME</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hello , My name is <span class="purple">Nikhil Mandoli</span>
+                <div>and I'm a</div>
+
+                <span id="element"></span>
+
+                <div class="cv">
+                    <a href="Resources/Resume.pdf" download id="download-btn">Resume</a>
+                </div>
+
+
+            </div>
+            <div class="rightsection">
+                <img src="Resources/profile.jpg">
+            </div>
+        </section>
+
+        <section class="secondsection" id="education">
+
+            <h1>
+                <di class="heading">Education</di>
+            </h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <div class="circle"><i class="fa-solid fa-circle"></i></div>
+                    <div class="vertical-text">
+                        <div class="year">2021-2025</div>
+                        <div class="course">Bachelor of Technology - Electronics and Communication</div>
+                        <div class="university">ABES Engineering College , Ghaziabad</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="circle"><i class="fa-solid fa-circle"></i></div>
+                    <div class="vertical-text">
+                        <div class="year"> 2021</div>
+                        <div class="course">Senior Secondary (12th) with 75%</div>
+                        <div class="university">Green Field Public School , Ghaziabad</div>
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="circle"><i class="fa-solid fa-circle"></i></div>
+                    <div class="vertical-text">
+                        <div class="year"> 2019</div>
+                        <div class="course"> Secondary (10th) with 75%</div>
+                        <div class="university">Green Field Public School , Ghaziabad</div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <div class="container" id="skills">
+
+
+            <h1>
+                <di class="heading">Technical Skills</di>
+            </h1>
+
+            <div class="skill-hover">
+                <div class="row">
+
+                    <section class="col">
+                        <div class="skills-container">
+
+                            <div class="skill">
+                                <div class="subject">HTML</div>
+                                <div class="progress-bar" value="94%">
+                                    <div class="progress-line" style="max-width: 94%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">CSS</div>
+                                <div class="progress-bar" value="83%">
+                                    <div class="progress-line" style="max-width: 83%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">JavaScript</div>
+                                <div class="progress-bar" value="58%">
+                                    <div class="progress-line" style="max-width: 58%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">C Programming</div>
+                                <div class="progress-bar" value="95%">
+                                    <div class="progress-line" style="max-width: 95%"></div>
+                                </div>
+                            </div>
+
+                            <div class="skill">
+                                <div class="subject">C++</div>
+                                <div class="progress-bar" value="74%">
+                                    <div class="progress-line" style="max-width: 74%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                </div>
+            </div>
+
+            <section class="project" id="projects">
+                <h1>
+                    <di class="heading">My Projects</di>
+                </h1>
+                <div class="grid">
+                    <div class="grid-item" id="description_1">
+                        <div class="des">
+                            <div class="title">Temperature Convertor</div>
+                            <div class="description">It is a Temperature Converting Website using HTML , CSS and
+                                JavaScript which convert the Temperature from Celcius to Fahrenheit.</div>
+                        </div>
+                    </div>
+
+                    <video class="temp" width="350px" controls autoplay loop>
+                        <source src="Resources/Temp_conv.mp4" type="video/mp4">
+                    </video>
+
+                    <div class="grid-item" id="pic_2">
+                        <div class="project-pic"> 
+                            <video class="video" width="350px" controls autoplay loop>
+                                <source src="Resources/music_player.mp4" type="video/mp4">
+                            </video> 
+                        </div>
+                    </div>
+
+                    <div class="grid-item" id="description_2">
+                        <div class="des">
+                            <div class="title">Music Player Interface</div>
+                            <div class="description" id="music_text">It is a Music player Website Interface using HTML
+                                and CSS. It is a
+                                my ongoing Project and tring to improve it</div>
+                        </div>
+                    </div>
+
+                    <div class="grid-item" id="description_3">
+                        <div class="des">
+                            <div class="title">Automatic Plant Watering System</div>
+                            <div class="description">It is my branch based project using a Microcontroller Arduino UNO.
+                                The main objective of this project is to give the water automatically to your plants
+                                when they needed. </div>
+                        </div>
+                    </div>
+
+                    <div class="grid-item" id="pic_3">
+                        <div class="project-pic" id="plant">
+                            <img class="p_3_1" src="Resources/plant.jpg" alt="">
+                            <img class="p_3_2" src="Resources/plant_2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="Hobbies" id="hobbies" class="hobbies-contact">
+                <h1>
+                    <div class="heading">Hobbies</div>
+                </h1>
+
+
+                <div class="hobbies-list">
+                    <ul>
+                        <li><i class="fa-solid fa-circle"></i>Cooking</li>
+                        <li><i class="fa-solid fa-circle"></i>Reading Books</li>
+                        <li><i class="fa-solid fa-circle"></i>Listening Music</li>
+                        <li><i class="fa-solid fa-circle"></i>Travelling</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="contact" id="contact" class="hobbies-contact">
+
+                <h1>
+                    <di class="heading">Contact Me</di>
+                </h1>
+                <form class="contact-form" action="contact.php" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your Name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="xyz@gmail.com" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+
+                    <input type="submit" value="Submit">
+                </form>
+            </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <h3>Nikhil Mandoli</h3>
+                    <p>Front-End Web Developer</p>
+                </div>
+                <div class="footer-right">
+                    <ul class="social-icons">
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/nikhil-mandoli-5a98581bb/"><i
+                                    class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fab fa-github"></i></a></li>
+                    </ul>
+                </div>
+                <div class="copyright">&copy; 2023 John Doe. All rights reserved.</div>
+            </div>
+        </div>
+    </footer>
+
+    <div>
+        <button type="submit" class="s"><a href="#"><i class="fa-solid fa-arrow-up" style="color: #000000;"></i></a>
+    </div></button>
+    </div>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front-End Web Developer...'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
